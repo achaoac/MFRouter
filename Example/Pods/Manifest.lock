@@ -1,0 +1,16 @@
+PODS:
+  - MFRouter (1.0.0)
+
+DEPENDENCIES:
+  - MFRouter (from `../`)
+
+EXTERNAL SOURCES:
+  MFRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFRouter: 96eda3bea5eb5513adca90a3b297b0ef738d5ea5
+
+PODFILE CHECKSUM: 92c16c6fc28feb1018b71eccf0d06b94ab0ec0e4
+
+COCOAPODS: 1.11.2

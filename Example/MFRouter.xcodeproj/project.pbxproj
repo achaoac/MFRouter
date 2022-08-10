@@ -23,6 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7F4AA71C28A3572D00486437 /* MFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4AA71B28A3572D00486437 /* MFDetailViewController.m */; };
+		7F4AA71F28A3578E00486437 /* MFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4AA71E28A3578E00486437 /* MFSettingViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -58,15 +60,19 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6DDC407693A6E2ED78409EE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6DDC407693A6E2ED78409EE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4AA71A28A3572D00486437 /* MFDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFDetailViewController.h; sourceTree = "<group>"; };
+		7F4AA71B28A3572D00486437 /* MFDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFDetailViewController.m; sourceTree = "<group>"; };
+		7F4AA71D28A3578E00486437 /* MFSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFSettingViewController.h; sourceTree = "<group>"; };
+		7F4AA71E28A3578E00486437 /* MFSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFSettingViewController.m; sourceTree = "<group>"; };
 		809D95240BEBD63659CE5E3F /* Pods_MFRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A700B32168AA34F87785E677 /* Pods-MFRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MFRouter_Tests/Pods-MFRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B12A71FDE71581502D9C516F /* Pods_MFRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B532A1B166E5EC62D267A98C /* MFRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MFRouter.podspec; path = ../MFRouter.podspec; sourceTree = "<group>"; };
+		B532A1B166E5EC62D267A98C /* MFRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MFRouter.podspec; path = ../MFRouter.podspec; sourceTree = "<group>"; };
 		C73FC9D0E9BFAEA21E5D4946 /* Pods-MFRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-MFRouter_Example/Pods-MFRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED1A22BDDE484C875D915DF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED1A22BDDE484C875D915DF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				A700B32168AA34F87785E677 /* Pods-MFRouter_Tests.debug.xcconfig */,
 				065708F55B8A6467B26B2B0C /* Pods-MFRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MFViewController.h */,
 				6003F5A6195388D20070C39A /* MFViewController.m */,
+				7F4AA71A28A3572D00486437 /* MFDetailViewController.h */,
+				7F4AA71B28A3572D00486437 /* MFDetailViewController.m */,
+				7F4AA71D28A3578E00486437 /* MFSettingViewController.h */,
+				7F4AA71E28A3578E00486437 /* MFSettingViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4AA71C28A3572D00486437 /* MFDetailViewController.m in Sources */,
 				6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7F4AA71F28A3578E00486437 /* MFSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

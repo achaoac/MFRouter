@@ -1,0 +1,22 @@
+{
+  "name": "MFRouter",
+  "version": "1.0.0",
+  "summary": "MFRouter is a light weight Router",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/achaoac/MFRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "achaoac": "achaoacwang@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/achaoac/MFRouter.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MFRouter/Classes/**/*"
+}

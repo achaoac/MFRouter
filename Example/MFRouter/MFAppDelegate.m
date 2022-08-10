@@ -7,12 +7,21 @@
 //
 
 #import "MFAppDelegate.h"
+#import "MFViewController.h"
+#import "MFRouterManager.h"
 
 @implementation MFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // 配置路由
+    [MFRouterManager configRouter:@"test-router" classMaps:@{
+        @"detailVC" : @"MFDetailViewController",
+        @"settingVC" : @"MFSettingViewController",
+    }];
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[MFViewController new]];
+    self.window.rootViewController = navi;
     return YES;
 }
 
